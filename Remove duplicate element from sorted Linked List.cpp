@@ -9,6 +9,7 @@ struct Node {
 };*/
 
 //Function to remove duplicates from sorted linked list.
+// using extra space 
 Node *insertbeg(Node* head, int value) {
     Node* newnode = new Node(value);
     newnode->next = head;
